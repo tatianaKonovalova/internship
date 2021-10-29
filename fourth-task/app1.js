@@ -38,4 +38,4 @@ function decoder(message) {
     finalString = finalString[0].toUpperCase() + finalString.slice(1);
     return finalString;
 }
-decoder(message);
+console.log(decoder(message));
